@@ -43,6 +43,7 @@
 [2,"log_by_lua_file",["log_by_lua_file <path-to-lua-script-file>"],"log_by_lua_file .lua;",["http","server","location","location if"],1,null,"https://github.com/openresty/lua-nginx-module/#log_by_lua_file",{}],
 [2,"balancer_by_lua_block",["balancer_by_lua_block { lua-script }"],"balancer_by_lua_block {}",["upstream"],1,"0.10.0","https://github.com/openresty/lua-nginx-module/#balancer_by_lua_block",{}],
 [2,"balancer_by_lua_file",["balancer_by_lua_file <path-to-lua-script-file>"],"balancer_by_lua_file .lua;",["upstream"],1,"0.10.0","https://github.com/openresty/lua-nginx-module/#balancer_by_lua_file",{}],
+[2,"balancer_keepalive",["balancer_keepalive <total-connections>"],"balancer_keepalive ;",["upstream"],1,"0.10.21","https://github.com/openresty/lua-nginx-module/#balancer_keepalive",{}],
 [2,"lua_need_request_body",["lua_need_request_body <on|off>"],"off",["http","server","location","location if"],1,null,"https://github.com/openresty/lua-nginx-module/#lua_need_request_body",{}],
 [2,"ssl_client_hello_by_lua_block",["ssl_client_hello_by_lua_block { lua-script }"],"ssl_client_hello_by_lua_block {}",["http","server"],1,"0.10.21","https://github.com/openresty/lua-nginx-module/#ssl_client_hello_by_lua_block",{}],
 [2,"ssl_client_hello_by_lua_file",["ssl_client_hello_by_lua_file <path-to-lua-script-file>"],"ssl_client_hello_by_lua_file .lua;",["http","server"],1,"0.10.21","https://github.com/openresty/lua-nginx-module/#ssl_client_hello_by_lua_file",{}],
